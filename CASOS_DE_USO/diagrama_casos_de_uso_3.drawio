@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Página-1" id="0yyZf2vExyStb92xReoz">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PGkATcvvUGbWVfut-UY--2" value="Vendedor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="445" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--11" value="Adicionar produtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--17" value="Remover produtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="295" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--22" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=4;spacingRight=4;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PGkATcvvUGbWVfut-UY--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="250" as="sourcePoint" />
+            <mxPoint x="700" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PGkATcvvUGbWVfut-UY--17" target="PGkATcvvUGbWVfut-UY--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="270" as="sourcePoint" />
+            <mxPoint x="700" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--26" value="Editar dados de produtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--27" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PGkATcvvUGbWVfut-UY--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="424.5" as="sourcePoint" />
+            <mxPoint x="700" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--28" value="Cadastrar dados dos clientes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PGkATcvvUGbWVfut-UY--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="505" as="sourcePoint" />
+            <mxPoint x="700" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--30" value="Consultar estoque" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--31" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PGkATcvvUGbWVfut-UY--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="605" as="sourcePoint" />
+            <mxPoint x="705" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--37" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="200" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--32" value="SISTEMA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PGkATcvvUGbWVfut-UY--37">
+          <mxGeometry x="4" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--38" value="Armazenar pedidos realizados pelo cliente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PGkATcvvUGbWVfut-UY--39" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PGkATcvvUGbWVfut-UY--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="695" as="sourcePoint" />
+            <mxPoint x="735" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
