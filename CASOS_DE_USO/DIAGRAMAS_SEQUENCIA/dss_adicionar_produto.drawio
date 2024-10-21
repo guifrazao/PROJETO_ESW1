@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Página-1" id="0yyZf2vExyStb92xReoz">
-    <mxGraphModel dx="1434" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,30 +26,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OzVhn0ZwfNGyfeAr3oJH-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="404" y="-800" width="10" height="80" as="geometry" />
+          <mxGeometry x="404" y="-770" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OzVhn0ZwfNGyfeAr3oJH-8" value="Mensagem informando que a operação foi bem sucedida" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="OzVhn0ZwfNGyfeAr3oJH-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="-725" as="targetPoint" />
+            <mxPoint x="100" y="-695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OzVhn0ZwfNGyfeAr3oJH-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="404" y="-620" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OzVhn0ZwfNGyfeAr3oJH-14" value="Entrar item (nome, preço, quantidade)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" target="OzVhn0ZwfNGyfeAr3oJH-13" edge="1">
+        <mxCell id="HjH3b9WVEyq6f9Md2iie-3" value="Inclui &quot;dss_verificar_dados&quot; (nome, preço, produto)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="-615" as="sourcePoint" />
+            <mxPoint x="100" y="-765" as="sourcePoint" />
+            <mxPoint x="404" y="-765" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OzVhn0ZwfNGyfeAr3oJH-15" value="Mensagem informando que a operação falhou" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="OzVhn0ZwfNGyfeAr3oJH-13" edge="1">
+        <mxCell id="1bRbgoDay3XGdUmkFGtM-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="404" y="-920" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1bRbgoDay3XGdUmkFGtM-2" value="Tela de adição de produtos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="1bRbgoDay3XGdUmkFGtM-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="-545" as="targetPoint" />
+            <mxPoint x="100" y="-845" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HjH3b9WVEyq6f9Md2iie-3" value="Inclui &quot;dss_verificar_dados&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+        <mxCell id="1bRbgoDay3XGdUmkFGtM-3" value="Inclui &quot;dss_login&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="-790" as="sourcePoint" />
-            <mxPoint x="404" y="-790" as="targetPoint" />
+            <mxPoint x="100" y="-910" as="sourcePoint" />
+            <mxPoint x="404" y="-910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
