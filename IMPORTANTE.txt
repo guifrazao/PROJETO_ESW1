@@ -1,0 +1,10 @@
+ARRUMAR OS DIAGRAMAS DE SEQUENCIA (ANÁLISE):
+  -Revisar
+
+ARRUMAR MAPA DE NAVEGAÇAO:
+  -Adicionar opção:
+     -Verificar clientes
+     -Histórico de compras
+		 
+TERMINAR DIAGRAMA DE CLASSE
+FAZER DIAGRAMAS DE SEQUENCIA (PROJETO)
