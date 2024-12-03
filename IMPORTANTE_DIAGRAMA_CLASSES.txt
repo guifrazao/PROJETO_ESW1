@@ -1,0 +1,5 @@
+sobre o diagrama de classes (e, por extensão, o mapa conceitual):
+
+- Talvez seja bom utilizar o CPF do cliente ao invéz do nome do cliente nas classes que utilizam esse dado para saber qual cliente que está sendo referenciado (Pedido, BancoDeDados, etc.)
+
+- A classe vendedor acabou não tendo nenhuma relação com nada. A gente só teria essa classe pra fazer login no sistema e só vai ter um vendedor no sistema. Será que tem algum jeito melhor de implementar isso?
