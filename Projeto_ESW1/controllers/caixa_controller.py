@@ -1,11 +1,11 @@
 class CaixaController:
     def __init__(self):
-        self.__total_vendas = 0.0
+        self.__saldo = 0.0
 
     def registrar_venda(self, valor: float) -> None:
-        self.__total_vendas += valor
+        self.__saldo += valor
 
     def fechar_caixa(self) -> float:
-        total = self.__total_vendas
-        self.__total_vendas = 0.0
+        total = self.__saldo
+        self.__saldo = 0
         return total
